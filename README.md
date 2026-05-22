@@ -1,21 +1,5 @@
 name: "pm-skills-agent"
 description: "Use when managing IT service projects or brand PM work in China. Covers full PM lifecycle: planning, discovery, strategy, execution, growth, renewal, reporting, and retrospective. Triggers: PRD, pricing, sprint, interview, weekly report, project plan, risk, compliance, launch."
-triggers:
-  - "写PRD"
-  - "PRD文档"
-  - "报价"
-  - "定价"
-  - "冲刺"
-  - "Sprint"
-  - "访谈"
-  - "周报"
-  - "月报"
-  - "上线"
-  - "风险"
-  - "合规"
-  - "复购"
-  - "续约"
-  - "项目管理"
 ---
 
 - 当前版本：v4.0
@@ -52,6 +36,7 @@ triggers:
 ## 前置依赖检测
 
 > 本技能依赖 `phuryn/pm-skills` 原生插件提供 67 个 Skills 和 38 个 Commands 的底层能力。
+> 具体skills地址在：https://github.com/phuryn/pm-skills
 
 ### 检测流程
 ```
@@ -60,4 +45,4 @@ triggers:
 
 ### 详情到这里安装：
 
-[https://skillhub.cn/skills/pm-skills-agent]https://skillhub.cn/skills/pm-skills-agent
+https://skillhub.cn/skills/pm-skills-agent
